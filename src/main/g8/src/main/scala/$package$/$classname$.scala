@@ -10,9 +10,7 @@ import projectkyoto.mmd.file.VMDFile
 import projectkyoto.jme3.mmd.vmd.VMDControl
 import com.jme3.light.{PointLight, AmbientLight, DirectionalLight}
 
-object $classname$ extends SimpleApplication with App{
-  this.start()
-
+class $classname$ extends SimpleApplication {
   def simpleInitApp {
     flyCam.setMoveSpeed(50)
     flyCam.setDragToRotate(true)
